@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+nav {
+    /* border: 1px solid white; */
+    padding: 1% 2%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav h3 {
+    cursor: pointer;
+}
+
+#nav-2 {
+    /* border: 1px solid yellow; */
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-title {
+    /* border: 1px solid white; */
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    line-height: 120px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 300px;
+    margin-inline: 15%;
+    position: relative;
+}
+
+.mt-el {
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+}
+
+#mt-2 {
+    text-align: center;
+    margin-left: 50px;
+}
+
+#mt-3 {
+    text-align: center;
+    margin-right: 60px;
+}
+
+.img {
+    height: 400px;
+    width: 300px;
+    /* width: 5px; */
+    position: absolute;
+    /* left: 45%; */
+}
+
+#img1 {
+    background: url("https://independent-photo.com/wp-content/uploads/2021/01/3.-Francesco-Gioia.jpeg");
+    background-size: cover;
+    background-position: center;
+    top: -65%;
+    left: 35%;
+    z-index: 3;
+    rotate: 5deg;
+}
+
+#img2 {
+    background: url("https://images.unsplash.com/photo-1604514628550-37477afdf4e3?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    top: -68%;
+    /* left: 37%; */
+    left: 35%;
+    /* rotate: -5deg; */
+    z-index: 2;
+}
+
+#img3 {
+    background: url("https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    top: -70%;
+    /* left: 34%; */
+    left: 35%;
+    /* rotate: 4deg; */
+    z-index: 1;
+}
+
+#footer {
+    /* border: 1px solid white; */
+    margin-top: 7%;
+    height: 10vh;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1% 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.fts {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#mid-text {
+    width: 60%;
+}
